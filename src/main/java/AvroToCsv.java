@@ -1,12 +1,9 @@
-import com.truecar.dataproduct.common.vehicle.DealerVehicleSale;
-import com.truecar.di.pricing.common.EnrichedVehicle;
 import org.apache.avro.Schema;
 import org.apache.avro.file.DataFileReader;
 import org.apache.avro.generic.GenericData;
 import org.apache.avro.io.DatumReader;
 import org.apache.avro.specific.SpecificDatumReader;
-import com.truecar.common.Vehicle;
-import com.truecar.di.canonicaldata.avro.*;
+
 
 import java.io.IOException;
 import java.nio.charset.Charset;
